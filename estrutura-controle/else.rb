@@ -4,7 +4,7 @@
 
 dia = "segunda"
 if dia == "domingo"
-  almoco = especial
+  almoco = "especial"
 else
   almoco = "normal"
 end
