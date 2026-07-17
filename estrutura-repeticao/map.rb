@@ -14,12 +14,12 @@ novo_numero = numeros.map do |x|
 
 
 
-# # puts "\n Executando .map! multiplicando cada item por 2"
+ puts "\n Executando .map! multiplicando cada item por 2"
 # # # .map! força que o conteúdo do array original seja alterado
-# # array.map! do |a|
-# # a * 2
-# # end
+numeros.map! do |x|
+    x * 5
+end
 
-# # puts "\n Array Original"
-# # puts " #{array}"
-# # puts ''
+puts "\n Array Original"
+puts " #{numeros}"
+puts ''
