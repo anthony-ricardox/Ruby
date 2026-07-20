@@ -5,6 +5,7 @@
 
 #exemplo televisão
 
+
 class Televisao
     def turn_on
       'Televisão Ligada'
@@ -17,3 +18,16 @@ class Televisao
 televisao = Televisao.new
 puts televisao.turn_on
 puts televisao.shutdown
+
+class Cachorro
+  def latir
+    'Au Au'
+  end
+  def dormir
+    'ZZzzzzzz'
+  end
+end
+
+dog = Cachorro.new
+puts "Cachorro: #{dog.latir}"
+puts "Cachorro: #{dog.dormir}"
