@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
  gem 'os'
  gem 'http', '>= 6.0.4'
+ gem 'cpf_cnpj', '>= 1.1'
