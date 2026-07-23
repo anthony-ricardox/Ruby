@@ -24,7 +24,7 @@ class Pessoa
     @nome = nome
     @idade = idade
     @sexo = sexo
-  end
+  endD
 
   def conferencia
     puts 'Instancia de class iniciada com valores: '
