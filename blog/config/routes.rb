@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get "home/index"
   resources :posts
   get "welcome/index"
   
@@ -14,7 +15,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-     root "welcome#index"
+     root "home#index"
      get "sobre", to: "welcome#sobre"
 end
 
