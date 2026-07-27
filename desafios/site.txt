@@ -1,0 +1,9 @@
+Exercism: O melhor para quem quer praticar no computador com testes automatizados. Você baixa os desafios via terminal e roda na sua máquina, contando com trilhas completas para iniciantes em Ruby.
+
+Codewars: Focado em "katas" (desafios de código) em formato de joguinho. Você resolve problemas curtos e ganha pontos conforme melhora o nível, excelente para treinar lógica e manipulação de arrays/hashes.
+
+Learn Ruby Online: Um site bem direto e minimalista para aprender e testar a sintaxe básica direto pelo navegador, sem precisar instalar nada.
+
+Coddy: Oferece cursos interativos de Ruby direto na web com explicações rápidas e desafios práticos.
+
+TryRuby: Um tutorial interativo e oficial bem rápido para entender os primeiros comandos do Ruby em minutos direto na tela de início.
