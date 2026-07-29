@@ -1,0 +1,25 @@
+GEM
+  specs:
+    net-http (0.9.1)
+      uri (>= 0.11.1)
+    nokogiri (1.19.4-x64-mingw-ucrt)
+      racc (~> 1.4)
+    racc (1.8.1)
+    uri (1.1.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  net-http (>= 0.9.1)
+  nokogiri (>= 1.19.4)
+
+CHECKSUMS
+  bundler (4.0.16) sha256=d6ca5dd440c24f9abce9844cf44cc8e18c6a553de65a47efb4544137af92c47d
+  net-http (0.9.1)
+  nokogiri (1.19.4-x64-mingw-ucrt)
+  racc (1.8.1)
+  uri (1.1.1)
+
+BUNDLED WITH
+  4.0.16
