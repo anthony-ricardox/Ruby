@@ -1,5 +1,7 @@
+require_relative "module"
 
 class Animal
+  include Comunica
   attr_reader :nome
   def initialize(nome)
     @nome = nome
@@ -13,9 +15,9 @@ class Cachorro < Animal
     super(nome)
     @raca = raca
   end
-  def comunicar
-    puts "Au Au AUUUUU!"
-  end
+   def comunicar
+     puts "Au Au AUUUUU!"
+   end
 end
 
 class Gato < Animal
@@ -25,9 +27,9 @@ class Gato < Animal
     super(nome)
     @raca = raca
   end
-  def comunicar
-    puts "Miauuuu"
-  end
+  # def comunicar
+  #   puts "Miauuuu"
+  # end
 end
 
 bob = Cachorro.new('Bob', 'Pitbull')
