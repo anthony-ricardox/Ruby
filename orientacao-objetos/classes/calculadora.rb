@@ -1,6 +1,11 @@
+require_relative "module"
+
 # Classe que representa uma calculadora simples.
 # Ela permite somar uma quantidade variável de números.
+
+
 class Calculadora
+  include Operacoes
   # Recebe qualquer número de argumentos e retorna a soma.
   #
   # @param args [Array<Numeric>] lista de valores a serem somados
@@ -13,9 +18,12 @@ class Calculadora
 end
 
 # Instancia a calculadora e faz uma soma de exemplo.
-soma = Calculadora.new
-resultado = soma.soma(50, 50, 50, 50)
+
+ soma = Calculadora.new
+ resultado = soma.soma(50, 50)
+ ressSubt = soma.subt(10, 5)
 puts resultado
+puts ressSubt
 
 puts '-' * 10
 

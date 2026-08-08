@@ -1,8 +1,4 @@
-module Comunica
-  def comunicar
-    puts "Au Au AUUUUU!"
-  end
-end
+require_relative "module"
 
 class Animal
   include Comunica
