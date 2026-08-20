@@ -6,3 +6,6 @@ for nome in nomes do
    puts nome
 end
 
+for key, value in dict do
+    puts "#{key}: #{value}"
+end
