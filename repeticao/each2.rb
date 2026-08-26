@@ -6,9 +6,10 @@ n = "Diego"
 #   puts n
 # end
 
-# dict.each  do |key,value|
-#   puts "#{key}: #{value}"
-# end
+ dict.each  do |key,value|
+   puts "#{key}: #{value}"
+ end
+puts n
 
 for n in nome do #esse metodo sobre escreve o n = "Diego" 
   puts n
